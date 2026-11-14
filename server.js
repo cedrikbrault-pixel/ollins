@@ -372,6 +372,7 @@ async function api(req, res, url) {
     if (coll === 'sales') {
       if (!checkSale(d)) return fail(res, 400, 'Vente invalide');
       if (!isAdmin(me)) { d.emp = me.name; d.at = Date.now(); }
+      if (typeof d.emp !== 'string' || !d.emp.trim()) return fail(res, 400, 'Vendeur obligatoire');
     }
     if (coll === 'runs') {
       if (!(typeof d.product === 'string' && d.product.trim() && d.product.length <= 120 && Number.isFinite(d.revenue) && d.revenue >= 0 && d.revenue <= 1e7)) return fail(res, 400, 'Course invalide');
