@@ -3,7 +3,7 @@
 Ce dossier contient un **vrai site internet** avec comptes, identifiants et mots de passe :
 
 - `/` : la **vitrine publique** (la carte et les menus, visibles par tout le monde).
-- `/gestion` : l’**outil de gestion**, réservé aux comptes de l’entreprise (ventes, compta, personnel, fiches, fidélité, historique).
+- `/gestion` : l’**outil de gestion**, réservé aux comptes de l’entreprise (ventes, dépenses, personnel, fiches, fidélité, historique).
 
 Il n’y a **aucune dépendance** à installer : seulement Node.js (version 18 ou plus).
 
@@ -18,7 +18,7 @@ Il n’y a **aucune dépendance** à installer : seulement Node.js (version 18 o
 | Enregistrer ses **courses** (produit, revenu) et voir les siennes | ✅ | ✅ | ✅ | ✅ |
 | Voir **toutes** les courses, par employé | ✅ | ✅ | ❌ | ❌ |
 | Voir fidélité et choisir ses couleurs | ✅ | ✅ | ✅ | ✅ |
-| Tableau de bord, compta, personnel | ✅ | ✅ | ❌ | ❌ |
+| Tableau de bord, dépenses, personnel | ✅ | ✅ | ❌ | ❌ |
 | Fiches employés et notes | ✅ | ✅ | ❌ | ❌ |
 | Ajouter des dépenses, verser les salaires | ✅ | ✅ | ❌ | ❌ |
 | Modifier le portefeuille, les prix, les % de salaires | ✅ | ❌ | ❌ | ❌ |
