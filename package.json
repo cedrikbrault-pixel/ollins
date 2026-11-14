@@ -1,0 +1,9 @@
+{
+  "name": "yollins-tacos",
+  "version": "1.0.0",
+  "description": "Gestion de l'entreprise Yo'llins Tacos (GTA RP) : ventes, compta, personnel, comptes par grade.",
+  "private": true,
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
